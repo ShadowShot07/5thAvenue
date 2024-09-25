@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3843650990961658162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3231462685364401037}
+  - component: {fileID: 8424983854141901083}
+  m_Layer: 0
+  m_Name: FmodEvents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3231462685364401037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3843650990961658162}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -36.029995, y: 7.2948456, z: 1.7995206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8424983854141901083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3843650990961658162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60827ad2f79e4d441a8936137e11c942, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <playMainTheme>k__BackingField:
+    Guid:
+      Data1: -938872605
+      Data2: 1118992470
+      Data3: 279312307
+      Data4: -20246245
+    Path: event:/Main Theme
+  <playEndTheme>k__BackingField:
+    Guid:
+      Data1: 1359619598
+      Data2: 1268834753
+      Data3: 480424624
+      Data4: -637624230
+    Path: event:/End Theme
+  <playGameAmbience>k__BackingField:
+    Guid:
+      Data1: 1285325250
+      Data2: 1255043011
+      Data3: 1239248542
+      Data4: 527913906
+    Path: event:/Ambient
+  <playChildFootstep>k__BackingField:
+    Guid:
+      Data1: -947086785
+      Data2: 1085844878
+      Data3: 1272332948
+      Data4: -271623492
+    Path: event:/ChildFootsteps
+  <playHeartBeat>k__BackingField:
+    Guid:
+      Data1: 1794346969
+      Data2: 1303678705
+      Data3: 1560274561
+      Data4: -1923595984
+    Path: event:/HeartBeat
+  <playScream>k__BackingField:
+    Guid:
+      Data1: -236898199
+      Data2: 1074815027
+      Data3: -2102421853
+      Data4: 1045684976
+    Path: event:/Scream
+  <playAnomalyCleaned>k__BackingField:
+    Guid:
+      Data1: 664442936
+      Data2: 1116794508
+      Data3: 1919423669
+      Data4: 1483140744
+    Path: event:/Anomaly cleaned
+  <playScarySound>k__BackingField:
+    Guid:
+      Data1: 679824486
+      Data2: 1186039796
+      Data3: -1121051209
+      Data4: 1612726970
+    Path: event:/Scary sounds
+  <playUIAccept>k__BackingField:
+    Guid:
+      Data1: 1193582462
+      Data2: 1152700035
+      Data3: 1688456111
+      Data4: 263579200
+    Path: event:/UI Accept
+  <playUICancel>k__BackingField:
+    Guid:
+      Data1: -1348375704
+      Data2: 1088109046
+      Data3: 92758715
+      Data4: -394412861
+    Path: event:/UI Cancel
